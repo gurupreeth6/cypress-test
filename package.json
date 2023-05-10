@@ -1,0 +1,15 @@
+{
+  "name": "cypressautomationbasicstoadv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "chrometest": "npm run test -- --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0"
+  }
+}
